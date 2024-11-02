@@ -1,4 +1,4 @@
-Diabetes Prediction
+Diabetes Prediction - 
 This project aims to predict whether a person is diabetic or not based on several health-related features using machine learning techniques.
 
 Dataset
