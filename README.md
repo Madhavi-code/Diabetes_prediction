@@ -19,11 +19,11 @@ Standardize the features using StandardScaler from sklearn.preprocessing.
 Model Training
 
 A support vector machine (SVM) model with a linear kernel is used for training the classifier. The following steps are performed:
-Split the preprocessed data into training and testing sets using train_test_split from sklearn.model_selection.  
-Initialize the SVM classifier with a linear kernel.  
-Fit the classifier to the training data using the fit method.  
-Predict the labels for the training data and calculate the accuracy score using accuracy_score from sklearn.metrics.  
-Model Evaluation
+1.Split the preprocessed data into training and testing sets using train_test_split from sklearn.model_selection.  
+2.Initialize the SVM classifier with a linear kernel.  
+3.Fit the classifier to the training data using the fit method.  
+4.Predict the labels for the training data and calculate the accuracy score using accuracy_score from sklearn.metrics.  
+5.Model Evaluation
 
 The trained SVM model is evaluated on the testing data to assess its performance. The following steps are performed:
 Predict the labels for the testing data using the trained classifier.
